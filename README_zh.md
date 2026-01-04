@@ -25,5 +25,3 @@
 
 ### 扩展 PyTorch
 - `vector256_pytorch_cppextension.py`: 内联 C++ 扩展，利用 `TensorIterator` 和 `cpu_kernel_vec` / `Vectorized` (Vec256) 做 SIMD 平方，并在 Python 中调用。
-
-文件名已统一为 snake_case，方便在博客里引用和跳转。
